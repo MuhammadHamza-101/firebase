@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyCg-GyMGvhCPC_CI-nifRvC0qe1BEi_qLc",
+          authDomain: "practice-6ed52.firebaseapp.com",
+          projectId: "practice-6ed52",
+          storageBucket: "practice-6ed52.appspot.com",
+          messagingSenderId: "672176975179",
+          appId: "1:672176975179:web:c5f53287bb89dc149f8cce"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+      </script> 
+
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="email">
+    <input type="password" id="password">
+    <button  onclick="send_data()">addItem</button>
+    <button  onclick="get_Data()">getItem</button>
+    
+<script src="app.js"></script>
+</body>
+</html>
